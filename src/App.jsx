@@ -1,6 +1,8 @@
 const App = () => {
   return (
-    <div>Hello Ranjeet!</div>
+    <div>
+      <h1 className="text-3xl">Hello Ranjeet!</h1>
+    </div>
   );
 };
 
