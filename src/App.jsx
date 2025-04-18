@@ -1,8 +1,12 @@
+import Hero from "./components/Hero";
+
 const App = () => {
   return (
-    <div>
-      <h1 className="text-3xl">Hello Ranjeet!</h1>
-    </div>
+    <main className="relative flex flex-col items-center justify-center px-5 mx-auto overflow-hidden bg-black-100 sm:px-10">
+      <div className="w-full max-w-7xl">
+        <Hero />
+      </div>
+    </main>
   );
 };
 
