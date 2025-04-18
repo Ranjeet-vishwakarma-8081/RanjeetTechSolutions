@@ -1,4 +1,6 @@
+import { FaLocationArrow } from "react-icons/fa6";
 import { cn } from "../lib/utils";
+import MagicButton from "./ui/MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
@@ -47,6 +49,15 @@ const Hero = () => {
           <p className="mb-4 text-sm text-center dark:text-white md:tracking-wider md:text-lg lg:text-2xl">
             Hi, I'm Ranjeet, a MERN Stack Developer based in Pune.
           </p>
+
+          {/* Magic Button */}
+          <a href="#about">
+            <MagicButton
+              title="Show my work"
+              icon={<FaLocationArrow />}
+              position="right"
+            />
+          </a>
         </div>
       </div>
     </div>
