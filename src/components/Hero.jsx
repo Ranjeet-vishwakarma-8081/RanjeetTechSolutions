@@ -1,5 +1,6 @@
 import { cn } from "../lib/utils";
 import { Spotlight } from "./ui/Spotlight";
+import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 const Hero = () => {
   return (
@@ -20,7 +21,7 @@ const Hero = () => {
         />
         <Spotlight className="top-28 left-80 h-[80vh] w-[50vw]" fill="blue" />
       </div>
-      <div className="relative flex items-center justify-center w-full h-screen bg-white dark:bg-black-100">
+      <div className="absolute top-0 left-0 flex items-center justify-center w-full h-screen bg-white dark:bg-black-100 ">
         <div
           className={cn(
             "absolute inset-0",
@@ -30,6 +31,23 @@ const Hero = () => {
           )}
         />
         <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black-100" />
+      </div>
+
+      <div className="relative z-10 flex justify-center my-20">
+        <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex justify-center items-center flex-col">
+          <h2 className="text-xs tracking-widest text-center uppercase dark:text-blue-100 max-w-80">
+            Dynamic Web Magic with React.js
+          </h2>
+
+          <TextGenerateEffect
+            className="text-center text-[40px] md:text-5xl lg:text-6xl"
+            words="We develop website that ignite your Businesses"
+          />
+
+          <p className="mb-4 text-sm text-center dark:text-white md:tracking-wider md:text-lg lg:text-2xl">
+            Hi, I'm Ranjeet, a MERN Stack Developer based in Pune.
+          </p>
+        </div>
       </div>
     </div>
   );
