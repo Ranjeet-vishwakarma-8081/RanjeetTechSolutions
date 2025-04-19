@@ -1,6 +1,7 @@
 import { FaHome } from "react-icons/fa";
 import Hero from "./components/Hero";
 import { FloatingNav } from "./components/ui/FloatingNav";
+import { BentoGridDemo } from "./components/BentoGridDemo";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
           navItems={[{ name: "Home", link: "/", icon: <FaHome /> }]}
         />
         <Hero />
+        <BentoGridDemo />
       </div>
     </main>
   );
