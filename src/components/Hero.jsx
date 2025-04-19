@@ -6,7 +6,7 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36">
+    <div className="flex items-center justify-center h-screen pb-20 pt-36">
       <div>
         {/* First spotlight is original */}
         {/* <Spotlight
@@ -37,8 +37,8 @@ const Hero = () => {
 
       <div className="relative z-10 flex justify-center my-20">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[50vw] flex justify-center items-center flex-col">
-          <h2 className="text-xs tracking-widest text-center uppercase dark:text-blue-100 max-w-80">
-            Dynamic Web Magic with React.js
+          <h2 className="text-xs tracking-widest text-center uppercase dark:text-blue-100 ">
+            Bringing Business Ideas to Life with Modern Web Tech
           </h2>
 
           <TextGenerateEffect
