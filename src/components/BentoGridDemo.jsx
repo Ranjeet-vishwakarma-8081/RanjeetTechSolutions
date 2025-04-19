@@ -4,19 +4,19 @@ import { services } from "../data/index";
 
 export function BentoGridDemo() {
   return (
-    <div>
+    <div id="services" className="py-16">
       <div className="flex items-center justify-center text-center dark:text-white">
         <div className="">
           <h2 className="pb-2 text-4xl font-bold ">
-            What We <span className="text-purple-500">Excel At</span>
+            Our <span className="text-purple-500">Services</span>
           </h2>
-          <p className="text-lg tracking-tight opacity-95 ">
+          <p className="tracking-tight opacity-95 ">
             Regardless of your industry, we understand your unique needs and
             deliver tailored solutions.
           </p>
         </div>
       </div>
-      <BentoGrid className="max-w-5xl py-16 mx-auto md:py-20">
+      <BentoGrid className="pt-10 mx-auto lg:max-w-5xl 2xl:max-w-6xl xl:max-w-7xl">
         {services.map((item, i) => (
           <BentoGridItem
             key={i}
