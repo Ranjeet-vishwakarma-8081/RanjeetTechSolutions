@@ -74,3 +74,89 @@ export const services = [
     icon: <FaServer className="text-purple-500 size-6" />,
   },
 ];
+
+export const projects = [
+  {
+    id: 1,
+    title: "MessageHub Application (Modern)",
+    link: "https://messagehub-application.onrender.com",
+    description:
+      "A real-time messaging platform that ensures instant communication with minimal latency.",
+    img: "/projects/MessageHub.png",
+    iconLists: [
+      "/icons/mongodb.svg",
+      "/icons/react.svg",
+      "/icons/react-router.svg",
+      "/icons/nodejs.svg",
+      "/icons/cloudinary.svg",
+      "/icons/zustand.svg",
+    ],
+  },
+  {
+    id: 2,
+    title: "International Match Application",
+    link: "https://international-match-app.vercel.app",
+    description:
+      "A sleek and responsive match-search interface tailored for browsing global sports events.",
+    img: "/projects/InternationalMatch.png",
+    iconLists: [
+      "/icons/react.svg",
+      "/icons/tailwindcss.svg",
+      "/icons/postcss.svg",
+      "/icons/vite.svg",
+      "/icons/autoprefixer.svg",
+      "/icons/eslint.svg",
+    ],
+  },
+  {
+    id: 3,
+    title: "Pizza Joint Application",
+    link: "https://pizza-joint-dun.vercel.app/",
+    description:
+      "An animated pizza ordering web app, which delivers an interactive user flow with real-time route transitions.",
+    img: "/projects/PizzaJoint.png",
+    iconLists: [
+      "/icons/react.svg",
+      "/icons/motion.png",
+      "/icons/react-router.svg",
+      "/icons/vite.svg",
+      "/icons/eslint.svg",
+      "/icons/javascript.svg",
+    ],
+  },
+  {
+    id: 4,
+    title: "Date Picker Application",
+    link: "https://date-picker-chi.vercel.app/",
+    description:
+      "A highly accurate and responsive date selection tool designed with React, Zustand, and date-fns.",
+    img: "/projects/DatePicker.png",
+    iconLists: [
+      "/icons/react.svg",
+      "/icons/tailwindcss.svg",
+      "/icons/postcss.svg",
+      "/icons/zustand.svg",
+      "/icons/autoprefixer.svg",
+      "/icons/eslint.svg",
+    ],
+  },
+];
+
+export const navItems = [
+  {
+    name: "Services",
+    link: "#services",
+  },
+  {
+    name: "Projects",
+    link: "#projects",
+  },
+  {
+    name: "Testimonials",
+    link: "#testimonials",
+  },
+  {
+    name: "Contact",
+    link: "#contact",
+  },
+];
