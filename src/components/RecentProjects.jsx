@@ -1,0 +1,72 @@
+import { FaLocationArrow } from "react-icons/fa6";
+import { projects } from "../data";
+import { PinContainer } from "./ui/PinContainer";
+
+const RecentProjects = () => {
+  return (
+    <div className="py-16 " id="projects">
+      <h2 className="text-4xl font-bold text-center text-white">
+        A small selection of{" "}
+        <span className="text-purple-500">recents projects</span>
+      </h2>
+
+      <div className="flex flex-wrap items-center justify-center p-4 mt-10 gap-x-24 lg:gap-y-10">
+        {projects.map(({ id, title, link, description, img, iconLists }) => (
+          <div
+            key={id}
+            className="lg:min-h-[32.5rem] h-[32rem] flex items-center justify-center sm:w-[570px] w-[80vw] sm:h-[41rem] "
+          >
+            <PinContainer title={link} href={link}>
+              <div className="relative flex justify-center items-center sm:w-[570px] w-[80vw] overflow-hidden h-[30vh] sm:h-[40vh] mb-10">
+                <div className="relative w-full h-full overflow-hidden bg-[#13162d] rounded-3xl">
+                  <img src="/bg.png" alt="bg-img" />
+                </div>
+                <img
+                  src={img}
+                  alt={title}
+                  className="absolute top-0 z-10 w-4/5 rounded-3xl rotate-3"
+                />
+              </div>
+              <h1 className="font-bold text-white lg:text-2xl md:text-xl line-clamp-1">
+                {title}
+              </h1>
+              <p className="text-sm font-light tracking-tight text-white lg:text-lg lg:font-normal ">
+                {description}
+              </p>
+              <div className="flex justify-between mt-7">
+                <div className="flex items-center ">
+                  {iconLists.map((icon, index) => (
+                    <div
+                      key={icon}
+                      className="border border-white/[0.2] rounded-full size-7 lg:size-10 flex items-center justify-center bg-black"
+                      style={{
+                        transform: `translateX(-${5 * index * 2}px)`,
+                      }}
+                    >
+                      <img src={icon} alt={icon} />
+                    </div>
+                  ))}
+                </div>
+                <div className="flex items-center justify-center">
+                  <p className="text-xs md:text-sm lg:text-xl font-medium text-[#CBACF9]">
+                    Check Live Site
+                  </p>
+                  <FaLocationArrow className="ms-3" color="#CBACF9" />
+                </div>
+              </div>
+            </PinContainer>
+          </div>
+          // <PinContainer title={href} href={href} key={id}>
+          //   <div className="flex flex-col p-4 tracking-tight w-[20rem] h-[15rem] bg-white ">
+          //     <div className="flex flex-1 w-full rounded-lg bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500"></div>
+          //     <h3 className="py-2 font-bold text-slate-100">{title}</h3>
+          //     <div className="text-slate-500 ">{description}</div>
+          //   </div>
+          // </PinContainer>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default RecentProjects;
