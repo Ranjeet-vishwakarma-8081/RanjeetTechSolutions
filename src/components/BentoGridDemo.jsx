@@ -10,13 +10,13 @@ export function BentoGridDemo() {
           <h2 className="pb-2 text-4xl font-bold ">
             Our <span className="text-purple-500">Services</span>
           </h2>
-          <p className="tracking-tight opacity-95 ">
+          <p className="text-sm tracking-tighter lg:text-lg">
             Regardless of your industry, we understand your unique needs and
             deliver tailored solutions.
           </p>
         </div>
       </div>
-      <BentoGrid className="pt-10 mx-auto lg:max-w-5xl 2xl:max-w-6xl xl:max-w-7xl">
+      <BentoGrid className="mx-auto mt-10 lg:max-w-5xl 2xl:max-w-7xl xl:max-w-6xl">
         {services.map((item, i) => (
           <BentoGridItem
             key={i}
