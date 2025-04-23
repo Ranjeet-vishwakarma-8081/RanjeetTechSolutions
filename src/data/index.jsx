@@ -160,3 +160,198 @@ export const navItems = [
     link: "#contact",
   },
 ];
+
+export const testimonials = [
+  {
+    id: 1,
+    quote:
+      "The passion and ownership Ranjeet brings is rare. From UI builds to auth flows — he handled everything with confidence and clarity.",
+    name: "Sanjeet Vishwakarma",
+    designation: "Technical Project Manager at Deloitte",
+    src: "/testimonials/sanjeetKumarVishwakarma.png",
+  },
+  {
+    id: 2,
+    quote:
+      "Ranjeet went above and beyond to help us optimize our app’s performance. His React skills and attention to UX helped us retain more users post-launch.",
+    name: "khushali Gupta",
+    designation: "Professor at Chadrabhan Sharma College",
+    src: "/testimonials/khushaliGupta.png",
+  },
+  {
+    id: 3,
+    quote:
+      "From clean UI to scalable code, Ranjeet brought clarity and speed to our frontend workflows. His proactive updates kept us confident throughout the sprint.",
+    name: "Devendra Vishwakarma",
+    designation: "Product Manager at Apextron electronics Private Limited",
+    src: "/testimonials/devendraVishwakarma.png",
+  },
+  {
+    id: 4,
+    quote:
+      "His frontend delivery was always on time, responsive across devices, and accessible. Definitely someone we’d want to work with again in future builds.",
+    name: "Sanoj Jaiswar",
+    designation: "Freelancer at Upwork",
+    src: "/testimonials/sanojJaiswar.jpeg",
+  },
+  {
+    id: 5,
+    quote:
+      "Ranjeet's ability to understand requirements quickly and deliver exactly what we needed — and even better — made our product launch smooth and stress-free.",
+    name: "Ankita Pawar",
+    designation: "Operations Director at Apextron electronics Private Limited",
+    src: "/testimonials/ankitaPawar.png",
+  },
+  {
+    id: 6,
+    quote:
+      "From concept to deployment, Ranjeet handled everything with remarkable clarity and speed. His commitment to clean architecture is commendable.",
+    name: "Deepak Joshi",
+    designation: "Trading Master",
+    src: "/testimonials/deepakJoshi.png",
+  },
+  {
+    id: 7,
+    quote:
+      "Ranjeet’s implementation of real-time messaging using Socket.IO added real value to our user experience. He always thinks two steps ahead.",
+    name: "Ashvani Vishwakarma",
+    designation: "Freelancer at Upwork",
+    src: "/testimonials/ashvaniVishwakarma.png",
+  },
+  {
+    id: 8,
+    quote:
+      "Ranjeet’s flexibility with scope changes and his quick turnaround made collaboration seamless. He’s the kind of developer every agile team needs.",
+    name: "Sonam Mishra",
+    designation: "Product Manager at Sna Infotech",
+    src: "/testimonials/sonamMishra.png",
+  },
+  {
+    id: 9,
+    quote:
+      "We collaborated with Ranjeet on a deadline-driven React project. He delivered pixel-perfect components and suggested impactful improvements to our design system.",
+    name: "Satya Prakash Verma",
+    designation: "Freelancer at Upwork",
+    src: "/testimonials/satyaPrakashVerma.jpeg",
+  },
+  {
+    id: 10,
+    quote:
+      "His ability to translate complex requirements into elegant frontend components using React and Tailwind impressed the entire team.",
+    name: "Sachin Patel",
+    designation: "Freelancer at Toptal",
+    src: "/testimonials/sachinPatel.jpeg",
+  },
+  {
+    id: 11,
+    quote:
+      "Ranjeet understood the business logic right away and delivered a solid full-stack feature in just days. His MERN stack expertise really shows in action.",
+    name: "Netal Riswal",
+    designation: "Java Developer at FynTune Solution Private Limited",
+    src: "/testimonials/netalRiswal.jpeg",
+  },
+  {
+    id: 12,
+    quote:
+      "He brought a fresh energy and technical depth to our dev team. His efficient use of Zustand, Tailwind, and Framer Motion elevated the overall quality.",
+    name: "Ravi Kumar",
+    designation: "Software Engineer at lovely Professinal University",
+    src: "/testimonials/raviKumar.png",
+  },
+  {
+    id: 13,
+    quote:
+      "I’ve worked with several developers, but Ranjeet’s combination of communication, speed, and clean code stands out. A dependable choice for any web project.",
+    name: "Vivek Chauhan",
+    designation: "Technical support at Accenture",
+    src: "/testimonials/vivekChauhan.png",
+  },
+  {
+    id: 14,
+    quote:
+      "Ranjeet not only fixed long-standing bugs in our system but also refactored the architecture for better scalability.",
+    name: "Sachin Prajapati",
+    designation: "Freelancer at Upwork",
+    src: "/testimonials/sachinPrajapati.png",
+  },
+  {
+    id: 15,
+    quote:
+      "He tackled our UI overhaul using Framer Motion and Zustand like a pro. The result? A faster, cleaner, and more user-friendly product.",
+    name: "Ankit Maurya",
+    designation: "Freelancer at Toptal",
+    src: "/testimonials/ankitMaurya.png",
+  },
+  {
+    id: 16,
+    quote:
+      "Working with Ranjeet felt like having a senior onboard — his curiosity, testing rigor, and problem-solving added massive value to our sprint cycles.",
+    name: "Aarti Sharma",
+    designation: "Freelancer at Fiverr",
+    src: "/testimonials/aartiSharma.jpg",
+  },
+  {
+    id: 17,
+    quote:
+      "His portfolio doesn’t lie — Ranjeet builds modern, responsive, and delightful interfaces. We appreciated his clarity in communication and execution.",
+    name: "Shubham Vishwakarma",
+    designation: "Product supplier at Kishan Medical Store",
+    src: "/testimonials/shubhamVishwakarma.png",
+  },
+  {
+    id: 18,
+    quote:
+      "Ranjeet’s code was readable, reusable, and fully aligned with our component architecture. Truly dependable and collaborative throughout.",
+    name: "Satyam Pandey",
+    designation: "Database Manager At Proteus Technologies Pvt Ltd",
+    src: "/testimonials/satyamPandey.jpg",
+  },
+  {
+    id: 19,
+    quote:
+      "Ranjeet brought structure and logic to our messy frontend codebase. His ability to work independently while syncing regularly was a big win.",
+    name: "Muskan Singh",
+    designation: "Freelancer at Fiverr",
+    src: "/testimonials/muskanSingh.png",
+  },
+  {
+    id: 20,
+    quote:
+      "What sets Ranjeet apart is his mindset — he’s not just a coder, he thinks about the product, the end user, and long-term scalability.",
+    name: "Pramod Vishwakarma",
+    designation: "Product contractor at SiyaRam Furnitures",
+    src: "/testimonials/pramodVishwakarma.png",
+  },
+  {
+    id: 21,
+    quote:
+      "He helped us rebrand our web app UI with consistency and polish. His use of Lucide Icons, Tailwind utilities, and responsiveness was top-notch.",
+    name: "Anshu Sharma",
+    designation: "Freelancer at Upwork",
+    src: "/testimonials/anshuSharma.png",
+  },
+  {
+    id: 22,
+    quote:
+      "Ranjeet elevated the user experience with just the right mix of design sense and dev logic. He’s a real asset for any frontend-heavy application.",
+    name: "Aadarsh Mishra",
+    designation: "Freelancer at Toptal",
+    src: "/testimonials/aadarshMishra.png",
+  },
+  {
+    id: 23,
+    quote:
+      "Our client-side routing and loading states became super smooth, thanks to Ranjeet’s clever implementation of React Router and async handlers.",
+    name: "Rishta Vishwakarma",
+    designation: "Full Stack Developer at Digital Rhombus",
+    src: "/testimonials/rishtaVishwakarma.jpg",
+  },
+  {
+    id: 24,
+    quote:
+      "His work on our internal dashboard was clean, efficient, and highly maintainable. Would definitely recommend him for any MERN-based project.",
+    name: "Krishna Vishwakarma",
+    designation: "Freelancer at Fiverr",
+    src: "/testimonials/krishnaVishwakarma.png",
+  },
+];
