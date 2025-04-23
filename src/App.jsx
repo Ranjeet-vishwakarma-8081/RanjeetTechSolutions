@@ -4,6 +4,7 @@ import { FloatingNav } from "./components/ui/FloatingNav";
 import { BentoGridDemo } from "./components/BentoGridDemo";
 import RecentProjects from "./components/RecentProjects";
 import { navItems } from "./data";
+import Testimonials from "./components/Testimonials";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Hero />
         <BentoGridDemo />
         <RecentProjects />
+        <Testimonials />
       </div>
     </main>
   );
