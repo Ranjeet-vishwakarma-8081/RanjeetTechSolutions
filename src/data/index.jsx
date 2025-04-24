@@ -355,3 +355,38 @@ export const testimonials = [
     src: "/testimonials/krishnaVishwakarma.png",
   },
 ];
+
+export const workExperiences = [
+  {
+    id: 1,
+    title: "Founder of MessageHub",
+    company: "Personal SaaS Project",
+    desc: "Developed a real-time chat app using MERN stack & Socket.IO for instant messaging with minimal latency and scalable architecture.",
+    className: "md:col-span-2",
+    thumbnail: "/experience/exp1.svg",
+  },
+  {
+    id: 2,
+    title: "Frontend Web Developer",
+    company: "DC InfoTech Pvt Ltd",
+    desc: "Built multiple apps including a Pizza Joint ordering system and a calendar-based Date Picker App using modern frontend tech stack.",
+    className: "md:col-span-2",
+    thumbnail: "/experience/exp2.svg",
+  },
+  {
+    id: 3,
+    title: "Full Stack Developer",
+    company: "APIxLabs",
+    desc: "Engineered apps like Text-to-Speech, Mock Interview App with OTP login, and a Webroom clone using HTML, Tailwind and Javascript.",
+    className: "md:col-span-2",
+    thumbnail: "/experience/exp3.svg",
+  },
+  {
+    id: 4,
+    title: "Freelance App Developer",
+    company: "Self employed",
+    desc: "Developed and maintained many user-facing features using modern frontend and backend technologies.",
+    className: "md:col-span-2",
+    thumbnail: "/experience/exp4.svg",
+  },
+];
