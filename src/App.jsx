@@ -6,6 +6,7 @@ import RecentProjects from "./components/RecentProjects";
 import { navItems } from "./data";
 import Testimonials from "./components/Testimonials";
 import Experience from "./components/Experience";
+import Approach from "./components/Approach";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <RecentProjects />
         <Testimonials />
         <Experience />
+        <Approach />
       </div>
     </main>
   );
