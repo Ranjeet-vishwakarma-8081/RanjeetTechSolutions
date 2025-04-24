@@ -5,6 +5,7 @@ import { BentoGridDemo } from "./components/BentoGridDemo";
 import RecentProjects from "./components/RecentProjects";
 import { navItems } from "./data";
 import Testimonials from "./components/Testimonials";
+import Experience from "./components/Experience";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <BentoGridDemo />
         <RecentProjects />
         <Testimonials />
+        <Experience />
       </div>
     </main>
   );
