@@ -11,7 +11,7 @@ const Experience = () => {
         {workExperiences.map((exp) => (
           <Button
             className=""
-            duration={Math.floor(Math.random() * 10000) + 3000}
+            duration={Math.floor(Math.random() * 10000) + 10000}
             key={exp.id}
           >
             <div className="flex flex-col gap-2 p-3 py-6 lg:flex-row lg:items-center lg:p-10 md:p-5">
