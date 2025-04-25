@@ -49,7 +49,7 @@ export const services = [
     icon: <FaWpforms className="text-purple-500 size-6" />,
   },
   {
-    title: "State Management with Zustand or Redux",
+    title: "State Management with React or Zustand",
     description:
       "Engineer scalable and efficient state management using Redux Toolkit or Zustand to maintain app consistency, improve performance, and simplify debugging in large applications.",
     icon: <FaProjectDiagram className="text-purple-500 size-6" />,
@@ -183,7 +183,7 @@ export const testimonials = [
     quote:
       "From clean UI to scalable code, Ranjeet brought clarity and speed to our frontend workflows. His proactive updates kept us confident throughout the sprint.",
     name: "Devendra Vishwakarma",
-    designation: "Product Manager at Apextron electronics Private Limited",
+    designation: "Product Manager at Apextron Electronics Private Limited",
     src: "/testimonials/devendraVishwakarma.png",
   },
   {
@@ -199,7 +199,7 @@ export const testimonials = [
     quote:
       "Ranjeet's ability to understand requirements quickly and deliver exactly what we needed — and even better — made our product launch smooth and stress-free.",
     name: "Ankita Pawar",
-    designation: "Operations Director at Apextron electronics Private Limited",
+    designation: "Operations Director at Apextron Electronics Private Limited",
     src: "/testimonials/ankitaPawar.png",
   },
   {
@@ -263,7 +263,7 @@ export const testimonials = [
     quote:
       "I’ve worked with several developers, but Ranjeet’s combination of communication, speed, and clean code stands out. A dependable choice for any web project.",
     name: "Vivek Chauhan",
-    designation: "Technical support at Accenture",
+    designation: "Technical Support at Accenture",
     src: "/testimonials/vivekChauhan.png",
   },
   {
@@ -295,7 +295,7 @@ export const testimonials = [
     quote:
       "His portfolio doesn’t lie — Ranjeet builds modern, responsive, and delightful interfaces. We appreciated his clarity in communication and execution.",
     name: "Shubham Vishwakarma",
-    designation: "Product supplier at Kishan Medical Store",
+    designation: "Product Supplier at Kishan Medical Store",
     src: "/testimonials/shubhamVishwakarma.png",
   },
   {
@@ -319,7 +319,7 @@ export const testimonials = [
     quote:
       "What sets Ranjeet apart is his mindset — he’s not just a coder, he thinks about the product, the end user, and long-term scalability.",
     name: "Pramod Vishwakarma",
-    designation: "Product contractor at SiyaRam Furnitures",
+    designation: "Product Contractor at SiyaRam Furnitures",
     src: "/testimonials/pramodVishwakarma.png",
   },
   {
@@ -388,5 +388,26 @@ export const workExperiences = [
     desc: "Developed and maintained many user-facing features using modern frontend and backend technologies.",
     className: "md:col-span-2",
     thumbnail: "/experience/exp4.svg",
+  },
+];
+
+export const socialMedia = [
+  {
+    id: 1,
+    name: "GitHub",
+    icon: "/socialMedia/github.svg",
+    link: "https://github.com/Ranjeet-vishwakarma-8081",
+  },
+  {
+    id: 2,
+    name: "Twitter",
+    icon: "/socialMedia/twitter.svg",
+    link: "https://x.com/Ranjeet8081",
+  },
+  {
+    id: 3,
+    name: "LinkedIn",
+    icon: "/socialMedia/linkedIn.svg",
+    link: "https://www.linkedin.com/in/ranjeet-vishwakarma-9390a2250/",
   },
 ];
