@@ -17,7 +17,7 @@ const Footer = () => {
           Ready to take <span className="text-purple">your</span> digital
           presense to the next level?
         </h1>
-        <p className="my-5 text-center text-white-200 md:mt-10">
+        <p className="my-5 text-center text-neutral-200 md:mt-10">
           Reach out to me today and let's discuss how I can help you achieve
           your goals.
         </p>
@@ -30,7 +30,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="flex flex-col items-center justify-between gap-2 mt-20 md:flex-row">
-        <p className="text-sm font-light text-center text-white w-60 md:text-base md:font-normal sm:w-auto">
+        <p className="text-sm font-light text-center text-neutral-200 w-60 md:text-base md:font-normal sm:w-auto">
           © {new Date().getFullYear()} RanjeetTechSolutions™. Modern Solutions
           for Digital Needs.
         </p>
