@@ -4,17 +4,17 @@ import { PinContainer } from "./ui/PinContainer";
 
 const RecentProjects = () => {
   return (
-    <div className="py-16 " id="projects">
-      <h2 className="text-4xl font-bold text-center text-white">
+    <div className="py-16" id="projects">
+      <h2 className="heading">
         A small selection of{" "}
-        <span className="text-purple-500">recents projects</span>
+        <span className="text-purple">recent projects</span>
       </h2>
 
-      <div className="flex flex-wrap items-center justify-center p-4 mt-10 gap-x-24 lg:gap-y-10">
+      <div className="flex flex-wrap items-center justify-center gap-10 mt-10 lg:gap-x-24 lg:gap-y-10 md:py-20 ">
         {projects.map(({ id, title, link, description, img, iconLists }) => (
           <div
             key={id}
-            className="lg:min-h-[32.5rem] h-[32rem] flex items-center justify-center sm:w-[570px] w-[80vw] sm:h-[41rem] "
+            className="lg:min-h-[32.5rem] h-[28rem] flex items-center justify-center sm:w-[570px] w-[80vw] sm:h-[37rem] 2xl:h-[40rem]"
           >
             <PinContainer title={link} href={link}>
               <div className="relative flex justify-center items-center sm:w-[570px] w-[80vw] overflow-hidden h-[30vh] sm:h-[40vh] mb-10">
@@ -27,18 +27,18 @@ const RecentProjects = () => {
                   className="absolute top-0 z-10 w-4/5 rounded-3xl rotate-3"
                 />
               </div>
-              <h1 className="font-bold text-white lg:text-2xl md:text-xl line-clamp-1">
+              <h1 className="text-xl font-bold text-white md:text-2xl line-clamp-1">
                 {title}
               </h1>
-              <p className="text-sm font-light tracking-tight text-white lg:text-lg lg:font-normal ">
+              <p className="md:text-base text-neutral-300 line-clamp-3">
                 {description}
               </p>
               <div className="flex justify-between mt-7">
-                <div className="flex items-center ">
+                <div className="flex items-center">
                   {iconLists.map((icon, index) => (
                     <div
                       key={icon}
-                      className="border border-white/[0.2] rounded-full size-7 lg:size-10 flex items-center justify-center bg-black"
+                      className="border border-white/[0.2] rounded-full size-6 lg:size-10 flex items-center justify-center bg-black"
                       style={{
                         transform: `translateX(-${5 * index * 2}px)`,
                       }}
@@ -48,7 +48,7 @@ const RecentProjects = () => {
                   ))}
                 </div>
                 <div className="flex items-center justify-center">
-                  <p className="text-xs md:text-sm lg:text-xl font-medium text-[#CBACF9]">
+                  <p className="text-sm lg:text-xl font-medium text-[#CBACF9]">
                     Check Live Site
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
@@ -56,13 +56,6 @@ const RecentProjects = () => {
               </div>
             </PinContainer>
           </div>
-          // <PinContainer title={href} href={href} key={id}>
-          //   <div className="flex flex-col p-4 tracking-tight w-[20rem] h-[15rem] bg-white ">
-          //     <div className="flex flex-1 w-full rounded-lg bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500"></div>
-          //     <h3 className="py-2 font-bold text-slate-100">{title}</h3>
-          //     <div className="text-slate-500 ">{description}</div>
-          //   </div>
-          // </PinContainer>
         ))}
       </div>
     </div>
