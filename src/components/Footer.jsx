@@ -30,8 +30,9 @@ const Footer = () => {
         </a>
       </div>
       <div className="flex flex-col items-center justify-between gap-2 mt-20 md:flex-row">
-        <p className="text-sm font-light text-white md:text-base md:font-normal">
-          © {new Date().getFullYear()} RanjeetTechSolutions
+        <p className="text-sm font-light text-center text-white w-60 md:text-base md:font-normal sm:w-auto">
+          © {new Date().getFullYear()} RanjeetTechSolutions™. Modern Solutions
+          for Digital Needs.
         </p>
         <div className="flex items-center gap-6 md:gap-3">
           {socialMedia.map((social) => (
