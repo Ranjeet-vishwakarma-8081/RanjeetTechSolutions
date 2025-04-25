@@ -46,7 +46,7 @@ export const FloatingNav = ({ navItems, className }) => {
           duration: 0.2,
         }}
         className={cn(
-          "flex max-w-fit fixed top-5 md:top-10 inset-x-0 mx-auto border rounded-lg bg-black-100 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] z-[5000] px-10 py-5  items-center justify-center space-x-4 border-white/[0.2]",
+          "flex max-w-fit fixed top-3 md:top-10 inset-x-0 mx-auto border rounded-lg bg-black-100 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] z-[5000] px-10 py-5  items-center justify-center space-x-4 border-white/[0.2]",
           className
         )}
       >
@@ -60,7 +60,9 @@ export const FloatingNav = ({ navItems, className }) => {
           >
             <span className="block sm:hidden">{navItem.icon}</span>
             {/* <span className="hidden text-sm sm:block">{navItem.name}</span> */}
-            <span className="text-sm !cursor-pointer">{navItem.name}</span>
+            <span className="text-xs sm:text-sm !cursor-pointer">
+              {navItem.name}
+            </span>
           </a>
         ))}
       </motion.div>
