@@ -154,6 +154,10 @@ export const projects = [
 
 export const navItems = [
   {
+    name: "Home",
+    link: "#home",
+  },
+  {
     name: "Services",
     link: "#services",
   },
