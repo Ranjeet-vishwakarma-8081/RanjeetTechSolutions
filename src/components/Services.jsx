@@ -23,7 +23,7 @@ export function Services() {
             title={item.title}
             description={item.description}
             icon={item.icon}
-            className={i === 3 || i === 6 ? "md:col-span-2" : ""}
+            className={i === 3 || i === 6 ? "lg:col-span-2" : ""}
           />
         ))}
       </BentoGrid>
