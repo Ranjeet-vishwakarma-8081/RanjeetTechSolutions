@@ -95,7 +95,7 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
               duration: 0.2,
               ease: "easeInOut",
             }}
-            className="h-64 sm:h-auto"
+            className="h-56 sm:h-auto"
           >
             <h3 className="text-2xl font-bold text-white">
               {testimonials[active].name}
@@ -103,7 +103,7 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
             <p className="text-sm md:text-base text-neutral-500">
               {testimonials[active].designation}
             </p>
-            <motion.p className="mt-4 text-lg break-all sm:mt-8 text-neutral-300 ">
+            <motion.p className="mt-4 text-base break-all md:text-lg sm:mt-8 text-neutral-300">
               {testimonials[active].quote.split(" ").map((word, index) => (
                 <motion.span
                   key={index}
@@ -140,7 +140,7 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
               onClick={handleNext}
               className="flex items-center justify-center rounded-full group/button size-9 bg-neutral-800"
             >
-              <FaArrowRight className="transition-transform duration-300  size-6 group-hover/button:-rotate-12 text-neutral-400" />
+              <FaArrowRight className="transition-transform duration-300 size-6 group-hover/button:-rotate-12 text-neutral-400" />
             </button>
           </div>
         </div>
