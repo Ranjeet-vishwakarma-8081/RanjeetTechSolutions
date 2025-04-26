@@ -7,7 +7,7 @@ import { navItems } from "./data";
 import Testimonials from "./components/Testimonials";
 import Experience from "./components/Experience";
 import Approach from "./components/Approach";
-import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
@@ -20,7 +20,7 @@ const App = () => {
         <Testimonials />
         <Experience />
         <Approach />
-        <Footer />
+        <Contact />
       </div>
     </main>
   );
