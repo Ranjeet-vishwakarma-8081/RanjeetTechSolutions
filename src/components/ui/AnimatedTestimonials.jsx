@@ -132,15 +132,15 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
           <div className="flex gap-4">
             <button
               onClick={handlePrev}
-              className="flex items-center justify-center rounded-full group/button size-9 bg-neutral-800"
+              className="flex items-center justify-center rounded-full group/button size-9 bg-black-200"
             >
-              <FaArrowLeft className="transition-transform duration-300 size-6 group-hover/button:rotate-12 text-neutral-400" />
+              <FaArrowLeft className="transition-transform duration-300 size-6 group-hover/button:rotate-12 text-neutral-300" />
             </button>
             <button
               onClick={handleNext}
-              className="flex items-center justify-center rounded-full group/button size-9 bg-neutral-800"
+              className="flex items-center justify-center rounded-full group/button size-9 bg-black-200"
             >
-              <FaArrowRight className="transition-transform duration-300 size-6 group-hover/button:-rotate-12 text-neutral-400" />
+              <FaArrowRight className="transition-transform duration-300 size-6 group-hover/button:-rotate-12 text-neutral-300" />
             </button>
           </div>
         </div>
