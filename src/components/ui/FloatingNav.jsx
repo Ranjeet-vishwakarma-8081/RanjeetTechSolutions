@@ -1,4 +1,3 @@
-"use client";
 import React, { useState } from "react";
 import {
   motion,
@@ -7,7 +6,6 @@ import {
   useMotionValueEvent,
 } from "motion/react";
 import { cn } from "../../lib/utils";
-// import { cn } from "@/lib/utils";
 
 export const FloatingNav = ({ navItems, className }) => {
   const { scrollYProgress } = useScroll();
@@ -58,8 +56,6 @@ export const FloatingNav = ({ navItems, className }) => {
               "relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500"
             )}
           >
-            <span className="block sm:hidden">{navItem.icon}</span>
-            {/* <span className="hidden text-sm sm:block">{navItem.name}</span> */}
             <span className="text-xs sm:text-sm !cursor-pointer">
               {navItem.name}
             </span>
