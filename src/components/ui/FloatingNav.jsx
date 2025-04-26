@@ -6,6 +6,7 @@ import {
   useMotionValueEvent,
 } from "motion/react";
 import { cn } from "../../lib/utils";
+import { Link } from "react-router";
 
 export const FloatingNav = ({ navItems, className }) => {
   const { scrollYProgress } = useScroll();
@@ -49,9 +50,9 @@ export const FloatingNav = ({ navItems, className }) => {
         )}
       >
         {navItems.map((navItem, idx) => (
-          <a
+          <Link
             key={`link=${idx}`}
-            href={navItem.link}
+            to={navItem.link}
             className={cn(
               "relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500"
             )}
@@ -59,7 +60,7 @@ export const FloatingNav = ({ navItems, className }) => {
             <span className="text-xs sm:text-sm !cursor-pointer">
               {navItem.name}
             </span>
-          </a>
+          </Link>
         ))}
       </motion.div>
     </AnimatePresence>
