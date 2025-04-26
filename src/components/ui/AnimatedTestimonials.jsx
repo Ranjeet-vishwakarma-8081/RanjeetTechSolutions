@@ -71,6 +71,7 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
                   height={500}
                   draggable={false}
                   className="object-cover object-center w-full h-full rounded-3xl"
+                  loading="lazy"
                 />
               </motion.div>
             ))}

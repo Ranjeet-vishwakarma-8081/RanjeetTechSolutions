@@ -10,6 +10,7 @@ const Contact = () => {
           src="/footer-grid.svg"
           alt="footer-grid"
           className="w-full h-full opacity-50"
+          loading="lazy"
         />
       </div>
       <div className="flex flex-col items-center">
@@ -49,6 +50,7 @@ const Contact = () => {
                   alt={social.name}
                   width={20}
                   height={20}
+                  loading="lazy"
                 />
               </a>
             </div>

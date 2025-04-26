@@ -25,6 +25,7 @@ const RecentProjects = () => {
                   src={img}
                   alt={title}
                   className="absolute top-0 z-10 w-4/5 rounded-3xl rotate-3"
+                  loading="lazy"
                 />
               </div>
               <h1 className="text-xl font-bold text-white md:text-2xl line-clamp-1">
@@ -43,7 +44,7 @@ const RecentProjects = () => {
                         transform: `translateX(-${5 * index * 2}px)`,
                       }}
                     >
-                      <img src={icon} alt={icon} />
+                      <img src={icon} alt={icon} loading="lazy" />
                     </div>
                   ))}
                 </div>

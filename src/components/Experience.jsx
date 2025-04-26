@@ -19,6 +19,7 @@ const Experience = () => {
                 src={exp.thumbnail}
                 alt={exp.title}
                 className="w-16 lg:w-32 md:w-20"
+                loading="lazy"
               />
               <div className="lg:ms-5 text-start">
                 <h1 className="text-xl font-bold md:text-2xl">{exp.title}</h1>
