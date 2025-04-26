@@ -2,7 +2,7 @@ import React from "react";
 import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
 import { services } from "../data/index";
 
-export function Services() {
+function Services() {
   return (
     <div id="services" className="py-16">
       <div className="flex items-center justify-center text-center dark:text-white">
@@ -30,3 +30,5 @@ export function Services() {
     </div>
   );
 }
+
+export default Services;
