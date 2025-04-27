@@ -188,7 +188,7 @@ export const testimonials = [
     id: 2,
     quote:
       "Ranjeet went above and beyond to help us optimize our app’s performance. His React skills and attention to UX helped us retain more users post-launch.",
-    name: "khushali Gupta",
+    name: "kushali Gupta",
     designation: "Professor at Chadrabhan Sharma College",
     src: "/testimonials/khushaliGupta.png",
   },
