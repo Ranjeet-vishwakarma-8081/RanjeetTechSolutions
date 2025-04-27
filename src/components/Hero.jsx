@@ -49,7 +49,7 @@ const Hero = () => {
             words="We develop websites that ignite your Business"
           />
 
-          <p className="text-sm text-center mb-14 md:tracking-wider md:text-lg lg:text-2xl text-neutral-300">
+          <p className="mb-4 text-sm text-center md:mb-14 md:tracking-wider md:text-lg lg:text-2xl text-neutral-300">
             Hi, I'm Ranjeet, a MERN Stack Developer based in Pune.
           </p>
 
