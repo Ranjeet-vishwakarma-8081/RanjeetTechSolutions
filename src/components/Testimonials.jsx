@@ -7,7 +7,7 @@ const Testimonials = () => {
       <h2 className="heading">
         Trusted by Industry <span className="text-purple">Professionals</span>
       </h2>
-      <AnimatedTestimonials testimonials={testimonials} />
+      <AnimatedTestimonials testimonials={testimonials} autoplay />
     </div>
   );
 };
