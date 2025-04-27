@@ -323,13 +323,21 @@ export const testimonials = [
   {
     id: 19,
     quote:
+      "Ranjeet combines technical expertise with strong client-centric thinking. He’s proactive and one of the most dependable developers we’ve worked with.",
+    name: "Gaurav Vishwakarma",
+    designation: "Freelancer at Toptal",
+    src: "/testimonials/gauravVishwakarma.png",
+  },
+  {
+    id: 20,
+    quote:
       "Ranjeet brought structure and logic to our messy frontend codebase. His ability to work independently while syncing regularly was a big win.",
     name: "Muskan Singh",
     designation: "Freelancer at Fiverr",
     src: "/testimonials/muskanSingh.png",
   },
   {
-    id: 20,
+    id: 21,
     quote:
       "What sets Ranjeet apart is his mindset — he’s not just a coder, he thinks about the product, the end user, and long-term scalability.",
     name: "Pramod Vishwakarma",
@@ -337,7 +345,15 @@ export const testimonials = [
     src: "/testimonials/pramodVishwakarma.png",
   },
   {
-    id: 21,
+    id: 22,
+    quote:
+      "Working with Ranjeet was a seamless experience. His proactive communication and technical expertise made our collaboration highly efficient and enjoyable.",
+    name: "Deepika Gouda",
+    designation: "Digital Asset Manager at Accenture",
+    src: "/testimonials/deepikaGouda.png",
+  },
+  {
+    id: 23,
     quote:
       "He helped us rebrand our web app UI with consistency and polish. His use of Lucide Icons, Tailwind utilities, and responsiveness was top-notch.",
     name: "Anshu Sharma",
@@ -345,7 +361,7 @@ export const testimonials = [
     src: "/testimonials/anshuSharma.png",
   },
   {
-    id: 22,
+    id: 24,
     quote:
       "Ranjeet elevated the user experience with just the right mix of design sense and dev logic. He’s a real asset for any frontend-heavy application.",
     name: "Aadarsh Mishra",
@@ -353,7 +369,7 @@ export const testimonials = [
     src: "/testimonials/aadarshMishra.png",
   },
   {
-    id: 23,
+    id: 25,
     quote:
       "Our client-side routing and loading states became super smooth, thanks to Ranjeet’s clever implementation of React Router and async handlers.",
     name: "Rishta Vishwakarma",
@@ -361,7 +377,7 @@ export const testimonials = [
     src: "/testimonials/rishtaVishwakarma.jpg",
   },
   {
-    id: 24,
+    id: 26,
     quote:
       "His work on our internal dashboard was clean, efficient, and highly maintainable. Would definitely recommend him for any MERN-based project.",
     name: "Krishna Vishwakarma",
