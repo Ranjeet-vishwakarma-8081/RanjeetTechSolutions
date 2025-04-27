@@ -269,8 +269,8 @@ export const testimonials = [
     quote:
       "He brought a fresh energy and technical depth to our dev team. His efficient use of Zustand, Tailwind, and Framer Motion elevated the overall quality.",
     name: "Ravi Kumar",
-    designation: "Software Engineer at lovely Professinal University",
-    src: "/testimonials/raviKumar.png",
+    designation: "Software Engineer at Lovely Professinal University",
+    src: "/testimonials/raviKumar.jpeg",
   },
   {
     id: 13,
