@@ -19,6 +19,7 @@ export default {
       },
       animation: {
         spotlight: "spotlight 2s ease .75s 1 forwards",
+        "fade-in": "fadeIn 0.3s ease-out",
       },
       keyframes: {
         spotlight: {
@@ -30,6 +31,10 @@ export default {
             opacity: 1,
             transform: "translate(-50%,-40%) scale(1)",
           },
+        },
+        fadeIn: {
+          "0%": { opacity: 0 },
+          "100%": { opacity: 1 },
         },
       },
       fontFamily: {
