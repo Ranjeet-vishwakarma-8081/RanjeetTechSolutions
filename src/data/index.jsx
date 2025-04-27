@@ -237,8 +237,8 @@ export const testimonials = [
     quote:
       "Ranjeet’s flexibility with scope changes and his quick turnaround made collaboration seamless. He’s the kind of developer every agile team needs.",
     name: "Sonam Mishra",
-    designation: "Product Manager at Sna Infotech",
-    src: "/testimonials/sonamMishra.png",
+    designation: "Product Manager & Software Tester at Sna InfoTech",
+    src: "/testimonials/sonamMishra.jpeg",
   },
   {
     id: 9,
