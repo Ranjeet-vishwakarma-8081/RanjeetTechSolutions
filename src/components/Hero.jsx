@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <div
       className="flex items-center justify-center h-screen pb-20 pt-36"
-      id="hero"
+      id="home"
     >
       <div>
         {/* First spotlight is original */}

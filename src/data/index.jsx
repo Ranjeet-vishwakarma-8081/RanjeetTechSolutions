@@ -155,23 +155,23 @@ export const projects = [
 export const navItems = [
   {
     name: "Home",
-    link: "/",
+    link: "#home",
   },
   {
     name: "Services",
-    link: "/services",
+    link: "#services",
   },
   {
     name: "Projects",
-    link: "/projects",
+    link: "#projects",
   },
   {
     name: "Testimonials",
-    link: "/testimonials",
+    link: "#testimonials",
   },
   {
     name: "Contact",
-    link: "/contact",
+    link: "#contact",
   },
 ];
 
