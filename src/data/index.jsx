@@ -43,7 +43,7 @@ export const services = [
   {
     title: "User Authentication & Role-Based Access",
     description:
-      "Implement user authentication using JWT, bcrypt, and OAuth with protected routes and role-based access control to ensure secure and controlled access across the application.",
+      "Implement user authentication using JWT, bcrypt, and OAuth/Clerk with protected routes and role-based access control to ensure secure and controlled access across the application.",
     icon: (
       <FaUserShield className="text-purple-500 size-6 lg:size-10 md:size-8" />
     ),
@@ -55,7 +55,7 @@ export const services = [
     icon: <FaWpforms className="text-purple-500 size-6 lg:size-10 md:size-8" />,
   },
   {
-    title: "State Management with React or Zustand",
+    title: "State Management with Redux or Zustand",
     description:
       "Engineer scalable and efficient state management using Redux Toolkit or Zustand to maintain app consistency, improve performance, and simplify debugging in large applications.",
     icon: (
