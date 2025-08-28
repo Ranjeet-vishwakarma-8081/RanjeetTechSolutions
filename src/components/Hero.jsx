@@ -45,11 +45,11 @@ const Hero = () => {
           </h2>
 
           <TextGenerateEffect
-            className="text-center text-[40px] md:text-5xl lg:text-6xl"
+            className="text-center text-[40px] md:text-4xl lg:text-5xl xl:text-6xl"
             words="We develop websites that ignite your Business"
           />
 
-          <p className="mb-4 text-sm text-center md:mb-14 md:tracking-wider md:text-lg lg:text-2xl text-neutral-300">
+          <p className="mb-4 text-sm text-center md:mb-14 md:tracking-wider md:text-lg lg:text-xl text-neutral-300 xl:text-2xl">
             Hi, I'm Ranjeet, a MERN Stack Developer based in Pune.
           </p>
 
