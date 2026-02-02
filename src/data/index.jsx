@@ -91,23 +91,87 @@ export const projects = [
     title: "MessageHub Application (Modern)",
     link: "https://messagehub-application.onrender.com",
     description:
-      "A real-time messaging platform that ensures instant communication with minimal latency.",
+      "A real-time messaging platform enabling instant communication with low latency using a scalable MERN and Socket.IO architecture.",
     img: "/projects/MessageHub.png",
     iconLists: [
       "/icons/mongodb.svg",
       "/icons/react.svg",
       "/icons/react-router.svg",
-      "/icons/nodejs.svg",
+      "/icons/nodejs.svg",  
       "/icons/cloudinary.svg",
       "/icons/zustand.svg",
     ],
   },
   {
     id: 2,
+    title: "Ram Carpenters",
+    link: "https://ramcarpenters.onrender.com",
+    description:
+      "A brand-focused website showcasing custom furniture services with smooth animations, responsive layouts, and modern user experience.",
+    img: "/projects/RamCarpenters.png",
+    iconLists: [
+      "/icons/nodejs.svg",
+      "/icons/react.svg",
+      "/icons/react-router.svg",
+      "/icons/tailwindcss.svg",
+      "/icons/zod.webp",
+      "/icons/gsap.webp",
+    ],
+  },
+  {
+    id: 3,
+    title: "Cobbler and Crew (MOJITO)",
+    link: "https://cobblerandcrew.vercel.app/",
+    description:
+      "A visually rich marketing website built with smooth animations and clean layouts to highlight brand identity and user engagement.",
+    img: "/projects/cobblerandcrew.png",
+    iconLists: [
+      "/icons/react.svg",
+      "/icons/tailwindcss.svg",
+      "/icons/gsap.webp",
+      "/icons/vite.svg",
+      "/icons/eslint.svg",
+      "/icons/javascript.svg",
+    ],
+  },
+  {
+    id: 4,
+    title: "Hire Lens AI",
+    link: "https://hirelensai.vercel.app/",
+    description:
+      "An AI-powered hiring interface focused on candidate screening workflows, state-driven UI, and responsive user experience.",
+    img: "/projects/HireLens.png",
+    iconLists: [
+      "/icons/react.svg",
+      "/icons/react-router.svg",
+      "/icons/tailwindcss.svg",
+      "/icons/puter.webp",
+      "/icons/zustand.svg",
+      "/icons/eslint.svg",
+    ],
+  },
+  {
+    id: 5,
+    title: "NoCodeBI",
+    link: "https://nocodebi.io",
+    description:
+      "A data-driven no-code analytics platform with dynamic dashboards, smooth interactions, and scalable frontend architecture.",
+    img: "/projects/NoCodeBI.png",
+    iconLists: [
+      "/icons/mongodb.svg",
+      "/icons/vue.webp",
+      "/icons/vite.svg",
+      "/icons/tailwindcss.svg",
+      "/icons/gsap.webp",
+      "/icons/javascript.svg",
+    ],
+  },
+  {
+    id: 6,
     title: "International Match Application",
     link: "https://international-match-app.vercel.app",
     description:
-      "A sleek and responsive match-search interface tailored for browsing global sports events.",
+      "A sleek and responsive match-search interface designed for browsing and filtering international sports events efficiently.",
     img: "/projects/InternationalMatch.png",
     iconLists: [
       "/icons/react.svg",
@@ -119,11 +183,11 @@ export const projects = [
     ],
   },
   {
-    id: 3,
+    id: 7,
     title: "Pizza Joint Application",
     link: "https://pizza-joint-dun.vercel.app/",
     description:
-      "An animated pizza ordering web app, which delivers an interactive user flow with real-time route transitions.",
+      "An animated pizza ordering web app featuring smooth page transitions and an interactive, guided ordering experience.",
     img: "/projects/PizzaJoint.png",
     iconLists: [
       "/icons/react.svg",
@@ -135,11 +199,11 @@ export const projects = [
     ],
   },
   {
-    id: 4,
+    id: 8,
     title: "Date Picker Application",
     link: "https://date-picker-chi.vercel.app/",
     description:
-      "A highly accurate and responsive date selection tool designed with React, Zustand, and date-fns.",
+      "A precise and user-friendly date selection tool with optimized state management and consistent cross-browser behavior.",
     img: "/projects/DatePicker.png",
     iconLists: [
       "/icons/react.svg",
