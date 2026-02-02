@@ -389,9 +389,9 @@ export const testimonials = [
 export const workExperiences = [
   {
     id: 1,
-    title: "Founder of MessageHub",
-    company: "Personal SaaS Project",
-    desc: "Developed a real-time chat app using MERN stack & Socket.IO for instant messaging with minimal latency and scalable architecture.",
+    title: "Frontend Developer",
+    company: "NoCodeBI Technologies Pvt Ltd",
+    desc: "Building scalable, high-performance frontend interfaces for no-code platforms while collaborating closely with product and backend teams.",
     className: "md:col-span-2",
     thumbnail: "/experience/exp1.svg",
   },
@@ -413,9 +413,9 @@ export const workExperiences = [
   },
   {
     id: 4,
-    title: "Freelance App Developer",
-    company: "Self employed",
-    desc: "Developed and maintained many user-facing features using modern frontend and backend technologies.",
+    title: "Founder of MessageHub",
+    company: "Personal SaaS Project",
+    desc: "Developed a real-time chat app using MERN stack & Socket.IO for instant messaging with minimal latency and scalable architecture.",
     className: "md:col-span-2",
     thumbnail: "/experience/exp4.svg",
   },
