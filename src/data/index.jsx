@@ -97,7 +97,7 @@ export const projects = [
       "/icons/mongodb.svg",
       "/icons/react.svg",
       "/icons/react-router.svg",
-      "/icons/nodejs.svg",  
+      "/icons/nodejs.svg",
       "/icons/cloudinary.svg",
       "/icons/zustand.svg",
     ],
@@ -251,7 +251,7 @@ export const testimonials = [
   {
     id: 2,
     quote:
-      "Ranjeet went above and beyond to help us optimize our app’s performance. His React skills and attention to UX helped us retain more users post-launch.",
+      "Ranjeet went above and beyond to help us optimize our app's performance. His React skills and attention to UX helped us retain more users post-launch.",
     name: "Kushali Gupta",
     designation: "Professor at Chadrabhan Sharma College",
     src: "/testimonials/khushaliGupta.png",
@@ -267,9 +267,9 @@ export const testimonials = [
   {
     id: 4,
     quote:
-      "His frontend delivery was always on time, responsive across devices, and accessible. Definitely someone we’d want to work with again in future builds.",
+      "His frontend delivery was always on time, responsive across devices, and accessible. Definitely someone we'd want to work with again in future builds.",
     name: "Sanoj Jaiswar",
-    designation: "Freelancer at Upwork",
+    designation: "GRN Operator at Manitou Groups",
     src: "/testimonials/sanojJaiswar.jpeg",
   },
   {
@@ -291,7 +291,7 @@ export const testimonials = [
   {
     id: 7,
     quote:
-      "Ranjeet’s implementation of real-time messaging using Socket.IO added real value to our user experience. He always thinks two steps ahead.",
+      "Ranjeet's implementation of real-time messaging using Socket.IO added real value to our user experience. He always thinks two steps ahead.",
     name: "Ashvani Vishwakarma",
     designation: "Freelancer at Upwork",
     src: "/testimonials/ashvaniVishwakarma.png",
@@ -299,7 +299,7 @@ export const testimonials = [
   {
     id: 8,
     quote:
-      "Ranjeet’s flexibility with scope changes and his quick turnaround made collaboration seamless. He’s the kind of developer every agile team needs.",
+      "Ranjeet's flexibility with scope changes and his quick turnaround made collaboration seamless. He's the kind of developer every agile team needs.",
     name: "Sonam Mishra",
     designation: "Product Manager & Software Tester at Sna InfoTech",
     src: "/testimonials/sonamMishra.jpeg",
@@ -339,9 +339,9 @@ export const testimonials = [
   {
     id: 13,
     quote:
-      "I’ve worked with several developers, but Ranjeet’s combination of communication, speed, and clean code stands out. A dependable choice for any web project.",
+      "I've worked with several developers, but Ranjeet's combination of communication, speed, and clean code stands out. A dependable choice for any web project.",
     name: "Vivek Chauhan",
-    designation: "Technical Support at Accenture",
+    designation: "Technical Support Engineer at Accenture",
     src: "/testimonials/vivekChauhan.png",
   },
   {
@@ -371,7 +371,7 @@ export const testimonials = [
   {
     id: 17,
     quote:
-      "His portfolio doesn’t lie — Ranjeet builds modern, responsive, and delightful interfaces. We appreciated his clarity in communication and execution.",
+      "His portfolio doesn't lie — Ranjeet builds modern, responsive, and delightful interfaces. We appreciated his clarity in communication and execution.",
     name: "Shubham Vishwakarma",
     designation: "Product Supplier at Kishan Medical Store",
     src: "/testimonials/shubhamVishwakarma.png",
@@ -379,17 +379,17 @@ export const testimonials = [
   {
     id: 18,
     quote:
-      "Ranjeet’s code was readable, reusable, and fully aligned with our component architecture. Truly dependable and collaborative throughout.",
+      "Ranjeet's code was readable, reusable, and fully aligned with our component architecture. Truly dependable and collaborative throughout.",
     name: "Satyam Pandey",
-    designation: "Database Manager At Proteus Technologies Pvt Ltd",
+    designation: "IT Executive at Coastal Drugs Pvt Ltd",
     src: "/testimonials/satyamPandey.jpg",
   },
   {
     id: 19,
     quote:
-      "Ranjeet combines technical expertise with strong client-centric thinking. He’s proactive and one of the most dependable developers we’ve worked with.",
+      "Ranjeet combines technical expertise with strong client-centric thinking. He's proactive and one of the most dependable developers we've worked with.",
     name: "Gaurav Vishwakarma",
-    designation: "Freelancer at Toptal",
+    designation: "Data Engineer at National Stock Exchange(NSE)",
     src: "/testimonials/gauravVishwakarma.png",
   },
   {
@@ -403,9 +403,9 @@ export const testimonials = [
   {
     id: 21,
     quote:
-      "What sets Ranjeet apart is his mindset — he’s not just a coder, he thinks about the product, the end user, and long-term scalability.",
+      "What sets Ranjeet apart is his mindset — he's not just a coder, he thinks about the product, the end user, and long-term scalability.",
     name: "Pramod Vishwakarma",
-    designation: "Product Contractor at SiyaRam Furnitures",
+    designation: "Product Contractor at Ram Carpenters",
     src: "/testimonials/pramodVishwakarma.png",
   },
   {
@@ -427,7 +427,7 @@ export const testimonials = [
   {
     id: 24,
     quote:
-      "Ranjeet elevated the user experience with just the right mix of design sense and dev logic. He’s a real asset for any frontend-heavy application.",
+      "Ranjeet elevated the user experience with just the right mix of design sense and dev logic. He's a real asset for any frontend-heavy application.",
     name: "Aadarsh Mishra",
     designation: "Freelancer at Toptal",
     src: "/testimonials/aadarshMishra.png",
@@ -435,9 +435,9 @@ export const testimonials = [
   {
     id: 25,
     quote:
-      "Our client-side routing and loading states became super smooth, thanks to Ranjeet’s clever implementation of React Router and async handlers.",
+      "Our client-side routing and loading states became super smooth, thanks to Ranjeet's clever implementation of React Router and async handlers.",
     name: "Rishta Vishwakarma",
-    designation: "Full Stack Developer at Digital Rhombus",
+    designation: "Software Tester at Quality Kiosk",
     src: "/testimonials/rishtaVishwakarma.jpg",
   },
   {
@@ -445,8 +445,16 @@ export const testimonials = [
     quote:
       "His work on our internal dashboard was clean, efficient, and highly maintainable. Would definitely recommend him for any MERN-based project.",
     name: "Krishna Vishwakarma",
-    designation: "Freelancer at Fiverr",
+    designation: "Credit Analyst at Bajaj Finserv Limited",
     src: "/testimonials/krishnaVishwakarma.png",
+  },
+  {
+    id: 27,
+    quote:
+      "Ranjeet is a dependable developer who elevates every project he touches. His clear communication, problem-solving skills, and innovative solutions make him an invaluable asset to any development team.",
+    name: "Deepika Sharma",
+    designation: "IT Technical Recruiter at Senwell Group Pvt Ltd",
+    src: "/testimonials/deepikaSharma.png",
   },
 ];
 
