@@ -269,7 +269,7 @@ export const testimonials = [
     quote:
       "His frontend delivery was always on time, responsive across devices, and accessible. Definitely someone we'd want to work with again in future builds.",
     name: "Sanoj Jaiswar",
-    designation: "GRN Operator at Manitou Groups",
+    designation: "GRN Operator at Manitou Groups (INDIA)",
     src: "/testimonials/sanojJaiswar.jpeg",
   },
   {
